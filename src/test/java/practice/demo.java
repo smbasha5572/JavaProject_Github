@@ -41,9 +41,11 @@ public class demo {
 				  System.out.println(linkherf+" >> "+httpUrlConnection.getResponseCode()+" >> "+httpUrlConnection.getResponseMessage());
 			  }else {
 				  System.err.println(linkherf+" >> "+httpUrlConnection.getResponseCode()+" >> "+httpUrlConnection.getResponseMessage());
+			 System.out.println("suite1");
 			  }
 			  
 			  httpUrlConnection.disconnect();   
+			  
 		}
 		}
 }
